@@ -12,22 +12,21 @@ class Solution(object):
         :rtype: bool
         """
         s=s.lower();
-        s=s.replace(' ','');
-
-        new=[];
-        for i in range(len(s)):
-            if s[i].isalnum():
-                new.append(s[i]);    
-
-        if len(new)==0:
-            return True;
-        
-        for i in range(len(new)/2):
-            if new[i]!=new[len(new)-1-i]:
+        left=0;
+        right=len(s)-1;
+        while left<right:
+            if s[left].isalnum()==False:
+                left+=1;
+                continue;
+            if s[right].isalnum()==False:
+                right-=1;
+                continue;
+            if s[left]==s[right]:
+                left+=1;
+                right-=1;
+            else:
                 return False;
-
         return True;
-
         
 # @lc code=end
 
