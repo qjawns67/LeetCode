@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0217-contains-duplicate](https://github.com/qjawns67/LeetCode/tree/master/0217-contains-duplicate) |
 | [0792-binary-search](https://github.com/qjawns67/LeetCode/tree/master/0792-binary-search) |
 ## Binary Search
 |  |
@@ -31,4 +32,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0278-first-bad-version](https://github.com/qjawns67/LeetCode/tree/master/0278-first-bad-version) |
+## Hash Table
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/qjawns67/LeetCode/tree/master/0217-contains-duplicate) |
+## Sorting
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/qjawns67/LeetCode/tree/master/0217-contains-duplicate) |
 <!---LeetCode Topics End-->
