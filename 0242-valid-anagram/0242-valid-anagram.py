@@ -12,16 +12,23 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
-        arr_s=list(s);
-        arr_s.sort();
-        arr_t=list(t);
-        arr_t.sort();
-        if len(arr_s)!=len(arr_t):
+        if len(s)!=len(t):
             return False;
         else:
-            for i in range(len(arr_t)):
-                if arr_s[i]!=arr_t[i]:
+            tmp={};
+            for i in s:
+                if i in tmp:
+                    tmp[i]+=1;
+                else:
+                    tmp[i]=1;
+            for i in t:
+                if i in tmp:
+                    if tmp[i]>0:
+                        tmp[i]-=1;
+                    else:
+                        return False; 
+                else:
                     return False;
-        return True;
+            return True;
 # @lc code=end
 
