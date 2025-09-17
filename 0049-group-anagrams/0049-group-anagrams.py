@@ -12,7 +12,6 @@ class Solution(object):
         :rtype: List[List[str]]
         """
         map={};
-        final=[];
         for i in range(len(strs)):
             sorted_str="".join(sorted(strs[i]));
             if not sorted_str in map:
