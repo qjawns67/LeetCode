@@ -7,7 +7,7 @@ class Solution(object):
         """
         tmp={};
         for i in range(len(nums)):
-            if target-nums[i] in tmp:
-                return [tmp[target-nums[i]],i];
-            else:
+            if not target-nums[i] in tmp:
                 tmp[nums[i]]=i;
+            else:
+                return [tmp[target-nums[i]],i]
