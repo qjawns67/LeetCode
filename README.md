@@ -12,14 +12,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/qjawns67/LeetCode/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/qjawns67/LeetCode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/qjawns67/LeetCode/tree/master/0242-valid-anagram) |
+| [0874-backspace-string-compare](https://github.com/qjawns67/LeetCode/tree/master/0874-backspace-string-compare) |
 ## Stack
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/qjawns67/LeetCode/tree/master/0020-valid-parentheses) |
+| [0874-backspace-string-compare](https://github.com/qjawns67/LeetCode/tree/master/0874-backspace-string-compare) |
 ## Two Pointers
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/qjawns67/LeetCode/tree/master/0125-valid-palindrome) |
+| [0874-backspace-string-compare](https://github.com/qjawns67/LeetCode/tree/master/0874-backspace-string-compare) |
 ## Array
 |  |
 | ------- |
@@ -77,4 +80,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/qjawns67/LeetCode/tree/master/0238-product-of-array-except-self) |
+## Simulation
+|  |
+| ------- |
+| [0874-backspace-string-compare](https://github.com/qjawns67/LeetCode/tree/master/0874-backspace-string-compare) |
 <!---LeetCode Topics End-->
